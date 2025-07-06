@@ -3,20 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online Portfolio</title>
+    <meta
+      name="description"
+      content="Upen Choudhary - Full Stack Developer Portfolio"
+    />
+    <title>Upen Choudhary | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h2>Upen Choudhary</h2>
-    <h5>Web Developer</h5>
-    <hr class="separator" />
-    <div class="email-section">
-      <img src="./svg/location.svg" alt="Email Icon" />
-      <div class="email-text">
-        <h3>Location</h3>
-        <h5>
-          <a href="mailto:upenchoudhary100@gmail.com">Mathura,India</a>
-        </h5>
-      </div>
+    <div class="container">
+      <section class="vertically-section">
+        <div class="image-container">
+          <img src="./images/avatar-1.png" alt="" />
+        </div>
+        <h2>Upen Choudhary</h2>
+        <h5>Web Developer</h5>
+        <hr class="separator" />
+        <div class="email-section">
+          <img src="./svg/location.svg" alt="Email Icon" />
+          <div class="email-text">
+            <h3>Location</h3>
+            <h5>
+              <a href="mailto:upenchoudhary100@gmail.com">Mathura,India</a>
+            </h5>
+          </div>
+        </div>
+        <div class="email-section">
+          <img src="./svg/phone.svg" alt="Email Icon" />
+          <div class="email-text">
+            <h3>Phone</h3>
+            <h5>
+              <a href="mailto:upenchoudhary100@gmail.com">(+91) 7248119519</a>
+            </h5>
+          </div>
+        </div>
+        <div class="email-section">
+          <img src="./svg/email.svg" alt="Email Icon" />
+          <div class="email-text">
+            <h3>EMAIL</h3>
+            <h5>
+              <a href="mailto:upenchoudhary100@gmail.com"
+                >upenchoudhary100@gmail.com</a
+              >
+            </h5>
+          </div>
+        </div>
+      </section>
+
+      <section class="square-section" id="app">
+        <nav class="navbar">
+          <div class="logo">
+            <!-- <a href="#">About Me</a> -->
+            <a href="#">‎ </a>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="#" onclick="navigate('about')">About</a></li>
+            <li><a href="#" onclick="navigate('project')">Project</a></li>
+            <li><a href="#" onclick="navigate('resume')">Resume</a></li>
+            <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+          </ul>
+        </nav>
+
+        <section id="content">
+          <div class="about active">
+            <p>
+              I'm a Web Developer and B.Tech Computer Science student from
+              India...
+            </p>
+          </div>
+        </section>
+      </section>
     </div>
   </body>
 </html>
