@@ -458,7 +458,8 @@ form button:hover {
 
 
 /* code for making this website responsive */
-@media (max-width: 768px) {
+/* resposive ness  that was used before  */
+/* @media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
@@ -466,4 +467,101 @@ form button:hover {
         width: 90%;
         height: auto;
     }
+} */
+
+/* code for making this website responsive */
+ @media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .vertically-section,
+  .square-section {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .square-section {
+    width: 95%;
+    overflow: auto;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .webd-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .webd {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .email-section {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .email-text h5 {
+    font-size: 14px;
+  }
+
+  form input,
+  form textarea {
+    padding: 0.8rem;
+  }
+
+  form button {
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+
+  #resume {
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  #resume h2 {
+    font-size: 1.8rem;
+  }
+
+  #resume p,
+  #resume ul li {
+    font-size: 1rem;
+  }
+
+  .download-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
 }
